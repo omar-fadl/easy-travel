@@ -1,0 +1,401 @@
+/***** Responsive Media Query *****/
+
+/* ======================================================= */
+
+/**** Start General Media Query ****/
+@media (max-width: 420px) /* Custom Media Not Found On Bootstrap */
+{
+}
+@media (max-width:767px)/* For Mobile & Tablet Screen */
+{
+
+}
+@media (min-width:768px)/* For Small Screen */
+{
+	.container
+	{
+		width: 750px;
+	}
+}
+@media (min-width:992px)/* For Medium Screen */
+{
+	.container
+	{
+		width: 970px;
+	}
+}
+@media (min-width:1200px)/* For Large Screen */
+{
+	.container
+	{
+		width: 1170px;
+	}
+}
+/**** End General Query ****/
+
+/* ======================================================= */
+
+/* Start Navbar */
+@media(max-width: 767px)/* For Mobile Screen */
+{	
+	.navbar
+	{
+		width: 100%;
+		height: auto;
+	}
+	.navbar .btn-nav
+	{
+		display: block;
+		float: right;
+	}
+	.navbar ul
+	{
+		clear: both;
+		float: left;
+		text-align: center;
+		margin-top: 20px;
+		display: none;
+	}
+	.navbar ul li
+	{
+		text-align: center;
+		float: none;
+		padding:5px;
+		width: 100%;
+	}
+	.navbar .sub-menu
+	{
+		float: none;
+	}
+	.navbar .sub-menu li
+	{
+		width: 100%;
+	}
+	.navbar ul.respons-ul
+	{
+		display: block;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px)/* For Small Screen */
+{	
+	.navbar
+	{
+		width: 100%;
+		height: auto;
+	}
+	.navbar .btn-nav
+	{
+		display: block;
+		float: right;
+	}
+	.navbar ul
+	{
+		clear: both;
+		float: left;
+		text-align: center;
+		margin-top: 20px;
+		display: none;
+	}
+	.navbar ul li
+	{
+		text-align: center;
+		float: none;
+		padding:5px;
+		width: 100%;
+	}
+	.navbar .sub-menu
+	{
+		float: none;
+	}
+	.navbar .sub-menu li
+	{
+		width: 100%;
+	}
+	.navbar ul.respons-ul
+	{
+		display: block;
+	}
+}
+
+@media(min-width:992px) and (max-width: 1199px)/* For Medium Screen */
+{
+	.navbar ul li
+	{
+		width: 130px;
+	}
+	.navbar ul li a
+	{
+		font-size:18px;
+	}
+
+}
+/* End Navbar */
+
+
+/* Start Signup */
+@media(max-width: 767px)
+{
+	.singup .info,
+	.singup .account
+	{
+		float: right;
+		width: 100%;
+	}
+	.singup .account input
+	{
+		width: 100%;
+	}
+}
+/* Start Login */
+@media(max-width: 767px)
+{
+	.login .info,
+	.login .account
+	{
+		float: none;
+		width: 100%;
+	}
+	.login .account input
+	{
+		width: 100%;
+	}
+}
+/* End Login */
+
+/* Start Slideshow */
+@media(max-width: 767px)
+{
+	.slideshow
+	{
+		height: 250px !important;
+	}
+	.slideshow img
+	{
+		height: 250px;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.slideshow
+	{
+		height: 300px !important;
+	}
+	.slideshow img
+	{
+		height: 300px;
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px)
+{
+	.slideshow
+	{
+		height: 400px !important;
+	}
+	.slideshow img
+	{
+		height: 400px;
+	}
+}
+/* End Slideshow */
+
+/* Start About Us*/
+@media(max-width: 767px)
+{
+	.about-us
+	{
+		margin-top: 100px;
+	}
+}
+/* Start About Us*/
+
+/* Start Our Services */
+@media(max-width:767px)
+{
+	.services .service
+	{
+		width: 100%;
+	}
+}
+@media(min-width:768px)
+{
+	.services .service
+	{
+		width: 39%;
+	}
+}
+@media(min-width:992px)
+{
+	.services .service
+	{
+		width: 23%;
+	}
+}
+/* End Our Services */
+
+/* Start Special Offers */
+@media(max-width: 767px)
+{
+	.special-offer .offer
+	{
+		width: 100%;
+	}
+}
+@media(min-width:768px)
+{
+	.special-offer .offer
+	{
+		width: 48%;
+	}
+}
+@media(min-width: 992px)
+{
+	.special-offer .offer
+	{
+		width: 31%;
+	}
+}
+/* End Special Offers */
+
+/* Start Users Feedback */
+@media(max-width:767px)
+{
+	.feedback
+	{
+		height:auto;
+		overflow:hidden;
+	}
+	.feedback .users .opinion
+	{
+		width: 100%;
+		margin-bottom:100px;
+	}
+	.feedback .users .opinion span
+	{
+		left:0;
+	}
+}
+@media(min-width:768px)
+{
+	.feedback
+	{
+		height:auto;
+		overflow:hidden;
+	}
+	.feedback .users .opinion
+	{
+		width: 45%;
+	}
+}
+@media(min-width:992px)
+{
+	.feedback
+	{
+		height:auto;
+		overflow:none;
+	}
+	.feedback .users .opinion
+	{
+		width: 30%;
+	}
+}
+/* End Users Feedback */
+
+/*Start Subscribe */
+@media(max-width: 767px)
+{
+	.subscribe input[type="email"]
+	{
+		display: block;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+/*Start Subscribe */
+
+/* Start Contact Us */
+@media(max-width:767px)
+{
+	.contact-us .con .contact-info,
+	.contact-us .con .contact-comment
+	{
+		float: none;
+		width: 100%;
+	}
+
+}
+/* End Contact Us */
+
+/*Start Booking Ticket */
+@media(max-width:767px)
+{
+	.booking
+	{
+		margin-top: 100px;
+	}
+	.booking .booking-form
+	{
+		height: 1500px;
+	}
+	.booking .booking-form .form-content .form-control ul li
+	{
+		float: none;
+		width: 100%;
+	}
+}
+/*End Booking Ticket */
+
+/* Start My Booking */
+@media(max-width: 767px)
+{
+	.my-booking
+	{
+		margin-top: 100px;
+	}
+	.my-booking .form-control,
+	.my-booking .info
+	{
+		float: none;
+		width: 100%;
+	}
+	.my-booking .form-control input[type="text"]
+	{
+		width: 95%;
+		display: block;
+		margin-bottom: 5px;
+	}
+}
+/* End My Booking */
+
+/* Start TimeTable */
+@media(max-width:767px)
+{
+	.timetable
+	{
+		margin-top: 100px;
+	}
+	.timetable form input
+	{
+		display: block;
+		width: 100%;
+
+	}
+}
+/* End TimeTable */
+
+/* Start Footer */
+@media(max-width:767px)
+{
+	.footer
+	{
+		height: 250px;
+	}
+	.footer .copyright
+	{
+		width: 100%;
+	}
+	.footer #contactus
+	{
+		width: 100%;
+	}
+}
+/* End Footer */
